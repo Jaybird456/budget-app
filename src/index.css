@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@400;500;700&family=Lobster&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base{
+    html{
+        font-family: 'Comme', sans-serif;
+        @apply bg-dark-blue;
+        height: 100vh;
+    }
+
+    h1{
+        font-family: 'Lobster', sans-serif;
+    }
+    
+}
