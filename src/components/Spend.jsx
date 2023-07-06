@@ -30,7 +30,7 @@ function Spend() {
  
   const expenseRef = collection(db,"expenses");
 
-  const createExpense = async (data) =>{
+  const createExpense = async (data) =>{ 
       await addDoc(expenseRef, {
         amount : data.expenseAmount,
         name : data.expenseName,
